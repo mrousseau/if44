@@ -1,0 +1,43 @@
+/**********
+mathieu rousseau 
+mr.rousseaumathieu@gmail.com
+version 2.0 
+**********/
+/*
+example de déclaration de variable Css
+@color-primary-0: #2C4274;	
+@color-primary-1: #7081A9;	
+@color-primary-2: #475C8D;
+@color-primary-3: #162B5B;
+@color-primary-4: #06173E;
+*/
+
+
+@if-yellow : #dc9024;
+@if-red : #b61313;
+
+body
+{
+	borer: solid 2px red; 
+}
+
+
+.title
+{
+	background-color: #ffcb13; /* ffc320; */	
+	height: 150px;
+}
+
+.title h1 
+{
+	margin : 25px auto auto 25px;
+	font-size: 65px;
+}
+
+.menu_general
+{
+	background-color: red;
+	height: 50px;
+}
+
+
