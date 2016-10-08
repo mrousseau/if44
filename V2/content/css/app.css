@@ -35,12 +35,14 @@ example de déclaration de variable Css
 {
 
 	float: right;
+	height: 90%;
 }
 
 .menu_general
 {
 	background-color: #cc1e27;
-	height: 50px;
+	height: 60px;
+	padding-top: 10px;
 }
 
 .menu li
@@ -60,6 +62,10 @@ example de déclaration de variable Css
 	text-decoration: none;
 	color: #fff;
 }
+#myCarousel
+{
+	background : #333;
+}
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {
@@ -73,11 +79,11 @@ example de déclaration de variable Css
 {
 	font-size: 20px;
 	margin-top: 150px;
-	margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
     background-color: white;
-    border: solid 2px #cc1e27;
+    border: solid 4px #cc1e27;
     padding: 20px;
     -webkit-transform: skew(10deg);
     -moz-transform: skew(10deg);
@@ -85,9 +91,20 @@ example de déclaration de variable Css
     tranform: skew(10deg);
 }
 
+.tuile p
+{
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+    tranform: skew(-10deg);	
+}
+
 
 body
 {
 	/*background-color: none;*/
-	background-image: url("../img/background.jpg");
+	margin:0;
+	padding:0;
+	background-image: url("../img/background.jpg"); 
+	background-size: cover;
 }
