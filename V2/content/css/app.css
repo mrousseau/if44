@@ -13,31 +13,81 @@ example de déclaration de variable Css
 */
 
 
-@if-yellow : #dc9024;
+@if-yellow : #ffcb13;
 @if-red : #b61313;
-
-body
-{
-	borer: solid 2px red; 
-}
-
 
 .title
 {
 	background-color: #ffcb13; /* ffc320; */	
-	height: 150px;
+	height: 200px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .title h1 
 {
-	margin : 25px auto auto 25px;
 	font-size: 65px;
+	float: left;
+}
+
+.title img
+{
+
+	float: right;
 }
 
 .menu_general
 {
-	background-color: red;
+	background-color: #cc1e27;
 	height: 50px;
 }
 
+.menu li
+{
+	font-size: 30px;
+	color: #fff;
+	font-size: 700;
+	/*padding-top: 15px;*/
+	padding-left: 5px;
+	padding-right: 50px;
+	display: inline;
+	text-decoration: none; 
+}
 
+.menu li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+{
+	max-height: 504px; 
+	width: auto;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.tuile
+{
+	font-size: 20px;
+	margin-top: 150px;
+	margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border: solid 2px #cc1e27;
+    padding: 20px;
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+    tranform: skew(10deg);
+}
+
+
+body
+{
+	/*background-color: none;*/
+	background-image: url("../img/background.jpg");
+}
