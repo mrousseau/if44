@@ -3,83 +3,82 @@ mathieu rousseau
 mr.rousseaumathieu@gmail.com
 version 2.0 
 **********/
-/*
-example de déclaration de variable Css
-@color-primary-0: #2C4274;	
-@color-primary-1: #7081A9;	
-@color-primary-2: #475C8D;
-@color-primary-3: #162B5B;
-@color-primary-4: #06173E;
-*/
 
+/**********
+    example de déclaration de variable Css
+    @color-primary-0: #2C4274;	
+    @color-primary-1: #7081A9;	
+    @color-primary-2: #475C8D;
+    @color-primary-3: #162B5B;
+    @color-primary-4: #06173E;
 
-@if-yellow : #ffcb13;
-@if-red : #b61313;
+    @if-yellow: #ffcb13;
+    @if-red: #b61313;
+**********/
 
 .title
 {
-	background-color: #ffcb13; /* ffc320; */	
-	height: 200px;
-	padding-top: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
+    background-color: #ffcb13; /* ffc320; */	
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .title h1 
 {
-	font-size: 65px;
-	float: left;
+    font-size: 65px;
+    float: left;
 }
 
 .title img
 {
-
-	float: right;
-	height: 90%;
+    float: right;
+    height: 90%;
 }
 
 .menu_general
 {
-	background-color: #cc1e27;
-	height: 60px;
-	padding-top: 10px;
+    background-color: #cc1e27;
+    height: 60px;
+    padding-top: 10px;
 }
 
 .menu li
 {
-	font-size: 30px;
-	color: #fff;
-	font-size: 700;
-	/*padding-top: 15px;*/
-	padding-left: 5px;
-	padding-right: 50px;
-	display: inline;
-	text-decoration: none; 
+    font-size: 30px;
+    color: #fff;
+    font-size: 700;
+    /*padding-top: 15px;*/
+    padding-left: 5px;
+    padding-right: 50px;
+    display: inline;
+    text-decoration: none; 
 }
 
 .menu li a
 {
-	text-decoration: none;
-	color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 #myCarousel
 {
-	background : #333;
+    background : #333;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {
-	max-height: 504px; 
-	width: auto;
-	margin-left: auto;
-	margin-right: auto; 
+    max-height: 504px; 
+    width: auto;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .tuile
 {
-	font-size: 20px;
-	margin-top: 150px;
-	margin-left: auto;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: auto;
     margin-right: auto;
     margin-bottom: 250px;
     background-color: white;
@@ -99,12 +98,50 @@ example de déclaration de variable Css
     tranform: skew(-10deg);	
 }
 
-
 body
 {
-	/*background-color: none;*/
-	margin:0;
-	padding:0;
-	background-image: url("../img/background.jpg"); 
-	background-size: cover;
+    /*background-color: none;*/
+    margin:0;
+    padding:0;
+    background-image: url("../img/background.jpg"); 
+    background-size: cover; 
+}
+
+.footer_content
+{
+    text-align: center;
+    height: 150px;
+    border-top: dashed 2px #000;
+    padding-top: 50px;
+}
+
+footer img
+{
+    height: 50px;
+    width: 50px;
+    margin: 0 20px 15px 20px;
+}
+
+.petitmargin
+{
+    margin : 100px 0px;
+}
+
+.nouscontacter
+{
+    height: 250px; 
+    background-color: white;
+    padding: 85px;
+    color: #606060;
+}
+
+.nouscontacter button
+{
+    background-color: #e28371;
+    border: none;
+    height: 55px; 
+    color: white;  
+    float: right;
+    margin-top: 15px;
+    font-size: 30px;
 }
