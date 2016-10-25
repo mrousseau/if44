@@ -1,13 +1,13 @@
 /**********
-mathieu rousseau 
+mathieu rousseau
 mr.rousseaumathieu@gmail.com
-version 2.0 
+version 2.0
 **********/
 
 /**********
     example de déclaration de variable Css
-    @color-primary-0: #2C4274;	
-    @color-primary-1: #7081A9;	
+    @color-primary-0: #2C4274;
+    @color-primary-1: #7081A9;
     @color-primary-2: #475C8D;
     @color-primary-3: #162B5B;
     @color-primary-4: #06173E;
@@ -18,14 +18,14 @@ version 2.0
 
 .title
 {
-    background-color: #ffcb13; /* ffc320; */	
+    background-color: #ffcb13; /* ffc320; */
     height: 200px;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.title h1 
+.title h1
 {
     font-size: 65px;
     float: left;
@@ -34,44 +34,22 @@ version 2.0
 .title img
 {
     float: right;
-    height: 90%;
+    height: 85%;
 }
 
-.menu_general
-{
-    background-color: #cc1e27;
-    height: 60px;
-    padding-top: 10px;
-}
-
-.menu li
-{
-    font-size: 30px;
-    color: #fff;
-    /*padding-top: 15px;*/
-    padding-left: 5px;
-    padding-right: 50px;
-    display: inline;
-    text-decoration: none; 
-}
-
-.menu li a
-{
-    text-decoration: none;
-    color: #fff;
-}
 
 #myCarousel
 {
     background : #333;
+    margin: 0;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {
-    max-height: 504px; 
+    max-height: 504px;
     width: auto;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 .tuile
@@ -95,25 +73,25 @@ version 2.0
     -webkit-transform: skew(-10deg);
     -moz-transform: skew(-10deg);
     -o-transform: skew(-10deg);
-    tranform: skew(-10deg);	
+    tranform: skew(-10deg);
 }
 
-.tuile ul 
+.tuile ul
 {
-    -webkit-transform: skew(-10deg);
-    -moz-transform: skew(-10deg);
-    -o-transform: skew(-10deg);
-    tranform: skew(-10deg);	
-}
-
-.tuile h2
-{
-    text-align: center; 
     -webkit-transform: skew(-10deg);
     -moz-transform: skew(-10deg);
     -o-transform: skew(-10deg);
     tranform: skew(-10deg);
-    font-size: 40px; 
+}
+
+.tuile h2
+{
+    text-align: center;
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+    tranform: skew(-10deg);
+    font-size: 40px;
     text-decoration: underline;
 }
 
@@ -123,8 +101,8 @@ body
     /*background-color: none;*/
     margin:0;
     padding:0;
-    background-image: url("../img/background.jpg"); 
-    background-size: cover; 
+    background-image: url("../img/background.jpg");
+    background-size: cover;
 }
 
 .footer_content
@@ -150,7 +128,7 @@ body
 .nouscontacter
 {
     margin-top: 100px;
-    height: 250px; 
+    height: 250px;
     background-color: white;
     padding: 85px;
     color: #606060;
@@ -160,8 +138,8 @@ body
 {
     background-color: #e28371;
     border: none;
-    height: 55px; 
-    color: white;  
+    height: 55px;
+    color: white;
     float: right;
     margin-top: 15px;
     font-size: 30px;
@@ -175,11 +153,81 @@ body
 
 #articleCarousel .carousel-inner>.item>a>img
 {
-    max-height: 804px; 
+    max-height: 804px;
     width: auto;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
-ul sousmenu {display: none;} 
+.menu_general
+{
+  height: 50px;
+  background-color: #cc1e27;
+}
+
+.menu_general ul {
+ margin-left: 30px;
+ padding:0;
+ list-style-type:none;
+ text-align:center;
+ }
+
+.menu_general li {
+ float:left;
+ margin-right:15px;
+font-size: 33px;
+ }
+
+.menu_general li a {
+ display:block;
+ color:white;
+ text-decoration:none;
+ padding:5px;
+ }
+
+.menu_general li a:hover {
+ color:white;
+ }
+
+.menu_general ul li ul {
+  display:none;
+  }
+
+.menu_general ul li:hover ul {
+ display:block;
+ }
+
+.menu_general li:hover ul li {
+ float:none;
+ }
+
+
+
+/*
+ul sousmenu {display: none;}
 li:hover ul.niveau2, li li:hover ul.niveau3 {display:block;}
+
+.menu_general
+{
+    background-color: #cc1e27;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.menu li
+{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 50px;
+    display: inline;
+    text-decoration: none;
+}
+
+.menu li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+*/
