@@ -175,14 +175,13 @@ body
 .menu_general li {
  float:left;
  margin-right:15px;
-font-size: 33px;
+ font-size: 33px;
  }
 
 .menu_general li a {
  display:block;
  color:white;
  text-decoration:none;
- padding:5px;
  }
 
 .menu_general li a:hover {
@@ -192,11 +191,13 @@ font-size: 33px;
 .menu_general ul li ul {
   display:none;
   position: absolute;
-  z-index: 99;
+  margin-top:3px;
+  z-index: 3;
   }
 
 .menu_general ul li:hover ul {
  display:block;
+ background-color: #8A0808;
  }
 
 .menu_general li:hover ul li {
