@@ -191,6 +191,8 @@ font-size: 33px;
 
 .menu_general ul li ul {
   display:none;
+  position: absolute;
+  z-index: 99;
   }
 
 .menu_general ul li:hover ul {
