@@ -6,7 +6,7 @@
         <title>Incendie Formation 44</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link rel="shortcut icon" type="image/x-icon" href="../content/img/favicon.ico" />
         <!-- app -> .css .js -->
         <link rel="stylesheet" href="../content/css/app.css">
         <script src="app.js"></script>
@@ -27,13 +27,21 @@
         </div>
         <!-- menu du site Web -->
         <div class="row menu_general">
-            <ul class="menu">
-                <li><a href="../index.html#">Acceuil</a></li>
-                <li><a href="../page/ct.html">Conseils techniques</a></li>
-                <li><a href="../page/if.html">Formations</a></li>
-                <li><a href="#">Sécurités lors dévènements</a></li>
-                <li><a href="#">More</a></li>
-            </ul>
+          <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="ct.html">Conseils techniques</a><li>
+            <li><a href="if.html">Formations</a>
+              <ul>
+                <li><a href="frmtExtEvac.html">Extinction, évacuation</a></li>
+                <li><a href="frmtSST.html">Sauveteur Secouriste du Tavail (SST)</a></li>
+                <li><a href="frmtH0VB0.html">Habilitation électrique (H0VB0)</a></li>
+              </ul>
+            </li>
+
+            <li><a href="se.html">Sécurités lors d'évènementiel</a><li>
+            <li><a href="#">Ils nous font confiance</a><li>
+            <li><a href="nouscontacter.html">Nous contacter</a><li>
+          </ul>
         </div>
 
         <div class="row content">
@@ -76,11 +84,12 @@
                     </p>
                 </div>
             </div>
-            
+
             <!-- images -->
             <div class="row">
                 <div class="col-lg-offset-2 col-lg-2 col-md-2">
-                    <img src="../content/img/formation/logoPrevention.png" class="col-lg-12"  style="margin-top:100px;" />
+                    <!-- <img src="../content/img/formation/logoPrevention.png" class="col-lg-12"  style="margin-top:100px;" /> -->
+                    <img src="../content/img/canalisation.png" class="col-lg-12"  style="margin-top:100px;" />
                 </div>
 
                 <div class="tuile petitmargin col-lg-offset-1 col-lg-2 col-md-2 ">
@@ -90,22 +99,22 @@
                 </div>
 
                 <div class="col-lg-offset-1 col-lg-2 col-md-2">
-                    <img src="../content/img/formation/boucheABouche.jpg" class="col-lg-12"  style="margin-top:100px;" />
+                    <img src="../content/img/ligneHT.png" class="col-lg-12"  style="margin-top:100px;" />
                 </div>
             </div>
 
     	</div>
 
-            <div class="footer">
-                <div class="row footer_content col-lg-12">
-                    <img src="../content/img/facebook.png" class="icon">
-                    <img src="../content/img/twitter.png" class="icon">
-                    <br/>
-                    <br/>
-                    <p>p.legentil@if44.fr</p>
-                    <br/>
-                    <br/>
-                </div>
-            </div>
+      <div class="row footer">
+          <div class="footer_content col-lg-12">
+              <img src="../content/img/facebook.png" class="icon">
+              <img src="../content/img/twitter.png" class="icon">
+              <br/>
+              <br/>
+              <p>p.legentil@if44.fr</p>
+              <br/>
+              <br/>
+          </div>
+      </div>
     </body>
 </html>

@@ -1,41 +1,49 @@
 <html>
-    
+
     <head>
         <title>Incendie Formation 44</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link rel="shortcut icon" type="image/x-icon" href="../content/img/favicon.ico" />
         <!-- app -> .css .js -->
         <link rel="stylesheet" href="../content/css/app.css">
         <script src="app.js"></script>
 
-        <!-- global -> .css .js --> 
+        <!-- global -> .css .js -->
         <!-- <link rel="stylesheet" href="content/css/foundation.css"> -->
         <link rel="stylesheet" href="../content/css/bootstrap.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- <script src="content/js/vendor/foundation.js"></script> -->
         <script src="../content/js/bootstrap.js"></script>
     </head>
-    
+
     <body class="container-fluid">
 
-            <div class="row title">    
+            <div class="row title">
                 <h1>Incendie Formation 44</h1>
                 <img src="../content/img/logo.png"/>
             </div>
             <!-- menu du site Web -->
-            <div class="row menu_general">    
-                <ul class="menu">
-                    <li><a href="../index.html#">Acceuil</a></li>
-                    <li><a href="../page/ct.html">Conseils techniques</a></li>
-                    <li><a href="../page/if.html">Formations</a></li>
-                    <li><a href="../page/se.html">Sécurités lors dévènements</a></li>
-                    <li><a href="#">More</a></li>
-                </ul>
+            <div class="row menu_general">
+              <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="ct.html">Conseils techniques</a><li>
+                <li><a href="if.html">Formations</a>
+                  <ul>
+                    <li><a href="frmtExtEvac.html">Extinction, évacuation</a></li>
+                    <li><a href="frmtSST.html">Sauveteur Secouriste du Tavail (SST)</a></li>
+                    <li><a href="frmtH0VB0.html">Habilitation électrique (H0VB0)</a></li>
+                  </ul>
+                </li>
+
+                <li><a href="se.html">Sécurités lors d'évènementiel</a><li>
+                <li><a href="#">Ils nous font confiance</a><li>
+                <li><a href="nouscontacter.html">Nous contacter</a><li>
+              </ul>
             </div>
 
             <div class="row content">
-                <div class="row">
+                <div class="col-lg-12">
                     <div class="tuile petitmargin col-lg-offset-1 col-lg-10">
                         <p>14 000 entreprises brûlent chaque année, 75% ne s’en remettent pas. Près d’un tiers de ces incendies sont d’origine électrique.</p>
                         ​<p>0.11% des accidents du travail sont d’origine électrique mais 1.05% des accidents du travail mortel sont d’origine électrique.</p>
@@ -51,18 +59,18 @@
                             <li>Perte de clientelle suite à un retard ou une incapacité de livraison </li>
                             <li>Choc psychologique suite au décès de salariès ou de visiteurs</li>
                         </ul>
-                       
+
                         <p>Le but des formations est d'éviter ou de limiter ces incidents, par la prévention, l'aide à la responsibilisation des salariés en matière de sécurité</p>
                     </div>
                 </div>
-                
-                <div class="row">
-                    <div class="row tuile petitmargin col-lg-offset-4 col-lg-4">
+
+                <div class="col-lg-12">
+                    <div class="tuile petitmargin col-lg-offset-4 col-lg-4">
                         <h2>Des cas réel</h2>
                     </div>
                 </div>
-                
-                <div class="row">
+
+                <div class="col-lg-12">
                     <!-- carousel accueil -->
                     <div id="articleCarousel" class="row carousel slide" data-ride="carousel">
                                 <!-- Wrapper for slides -->
@@ -96,14 +104,14 @@
                                 </a>
                             </div>
                 </div>
-                
-                
+
+
             </div>
 
-            <div class="footer">
-                <div class="row footer_content col-lg-12">
-                    <img src="content/img/facebook.png" class="icon">
-                    <img src="content/img/twitter.png" class="icon">
+            <div class="row footer">
+                <div class="footer_content col-lg-12">
+                    <img src="../content/img/facebook.png" class="icon">
+                    <img src="../content/img/twitter.png" class="icon">
                     <br/>
                     <br/>
                     <p>p.legentil@if44.fr</p>
