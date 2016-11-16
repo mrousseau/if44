@@ -177,7 +177,8 @@ body
 .menu_general li {
  float:left;
  margin-right:30px;
- font-size: 33px;
+/* font-size: 33px; */
+font-size: 16px; 
  }
 
 .menu_general li a {
@@ -278,5 +279,5 @@ body
 .ligneimage img
 {
   margin-top: 25px;
-  margin-bottom: -50px; 
+  margin-bottom: -50px;
 }
